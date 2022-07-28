@@ -23,9 +23,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/prizraksarvar/tink/go/aead/subtle"
-	"github.com/prizraksarvar/tink/go/subtle/random"
-	"github.com/prizraksarvar/tink/go/testutil"
+	"github.com/prizraksarvar/tink/aead/subtle"
+	"github.com/prizraksarvar/tink/subtle/random"
+	"github.com/prizraksarvar/tink/testutil"
 	"golang.org/x/crypto/chacha20poly1305"
 )
 

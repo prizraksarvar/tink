@@ -5,7 +5,7 @@ package(default_visibility = ["//:__subpackages__"])  # keep
 go_library(
     name = "go_default_library",
     srcs = ["kwp.go"],
-    importpath = "github.com/prizraksarvar/tink/go/kwp/subtle",
+    importpath = "github.com/prizraksarvar/tink/kwp/subtle",
     visibility = ["//visibility:public"],
 )
 

@@ -17,7 +17,7 @@ go_library(
         "validation.go",
         "writer.go",
     ],
-    importpath = "github.com/prizraksarvar/tink/go/keyset",
+    importpath = "github.com/prizraksarvar/tink/keyset",
     visibility = [
         "//visibility:public",
     ],

@@ -10,7 +10,7 @@ go_library(
         "hmac.go",
         "subtle.go",
     ],
-    importpath = "github.com/prizraksarvar/tink/go/prf/subtle",
+    importpath = "github.com/prizraksarvar/tink/prf/subtle",
     visibility = ["//visibility:public"],
     deps = [
         "//subtle:go_default_library",

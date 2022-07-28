@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/prizraksarvar/tink/go/hybrid"
-	"github.com/prizraksarvar/tink/go/keyset"
+	"github.com/prizraksarvar/tink/hybrid"
+	"github.com/prizraksarvar/tink/keyset"
 )
 
 func Example() {

@@ -35,7 +35,7 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
 )
 
 var (

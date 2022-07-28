@@ -21,14 +21,14 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	subtleaead "github.com/prizraksarvar/tink/go/aead/subtle"
-	"github.com/prizraksarvar/tink/go/keyset"
-	subtlemac "github.com/prizraksarvar/tink/go/mac/subtle"
-	chpb "github.com/prizraksarvar/tink/go/proto/aes_ctr_hmac_streaming_go_proto"
-	commonpb "github.com/prizraksarvar/tink/go/proto/common_go_proto"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
-	"github.com/prizraksarvar/tink/go/streamingaead/subtle"
-	"github.com/prizraksarvar/tink/go/subtle/random"
+	subtleaead "github.com/prizraksarvar/tink/aead/subtle"
+	"github.com/prizraksarvar/tink/keyset"
+	subtlemac "github.com/prizraksarvar/tink/mac/subtle"
+	chpb "github.com/prizraksarvar/tink/proto/aes_ctr_hmac_streaming_go_proto"
+	commonpb "github.com/prizraksarvar/tink/proto/common_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/streamingaead/subtle"
+	"github.com/prizraksarvar/tink/subtle/random"
 )
 
 const (

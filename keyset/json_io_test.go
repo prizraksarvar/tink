@@ -24,12 +24,12 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/prizraksarvar/tink/go/keyset"
-	"github.com/prizraksarvar/tink/go/testkeyset"
-	"github.com/prizraksarvar/tink/go/testutil"
+	"github.com/prizraksarvar/tink/keyset"
+	"github.com/prizraksarvar/tink/testkeyset"
+	"github.com/prizraksarvar/tink/testutil"
 
-	commonpb "github.com/prizraksarvar/tink/go/proto/common_go_proto"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
+	commonpb "github.com/prizraksarvar/tink/proto/common_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
 )
 
 func TestJSONIOUnencrypted(t *testing.T) {

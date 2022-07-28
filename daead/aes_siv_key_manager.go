@@ -20,12 +20,12 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/prizraksarvar/tink/go/daead/subtle"
-	"github.com/prizraksarvar/tink/go/keyset"
-	"github.com/prizraksarvar/tink/go/subtle/random"
+	"github.com/prizraksarvar/tink/daead/subtle"
+	"github.com/prizraksarvar/tink/keyset"
+	"github.com/prizraksarvar/tink/subtle/random"
 
-	aspb "github.com/prizraksarvar/tink/go/proto/aes_siv_go_proto"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
+	aspb "github.com/prizraksarvar/tink/proto/aes_siv_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
 )
 
 const (

@@ -20,14 +20,14 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/prizraksarvar/tink/go/aead/subtle"
-	"github.com/prizraksarvar/tink/go/core/registry"
-	"github.com/prizraksarvar/tink/go/keyset"
-	"github.com/prizraksarvar/tink/go/subtle/random"
+	"github.com/prizraksarvar/tink/aead/subtle"
+	"github.com/prizraksarvar/tink/core/registry"
+	"github.com/prizraksarvar/tink/keyset"
+	"github.com/prizraksarvar/tink/subtle/random"
 	"golang.org/x/crypto/chacha20poly1305"
 
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
-	xcppb "github.com/prizraksarvar/tink/go/proto/xchacha20_poly1305_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
+	xcppb "github.com/prizraksarvar/tink/proto/xchacha20_poly1305_go_proto"
 )
 
 const (

@@ -21,14 +21,14 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/prizraksarvar/tink/go/aead"
-	"github.com/prizraksarvar/tink/go/keyset"
-	commonpb "github.com/prizraksarvar/tink/go/proto/common_go_proto"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
-	"github.com/prizraksarvar/tink/go/signature"
-	"github.com/prizraksarvar/tink/go/subtle/random"
-	"github.com/prizraksarvar/tink/go/testkeyset"
-	"github.com/prizraksarvar/tink/go/testutil"
+	"github.com/prizraksarvar/tink/aead"
+	"github.com/prizraksarvar/tink/keyset"
+	commonpb "github.com/prizraksarvar/tink/proto/common_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/signature"
+	"github.com/prizraksarvar/tink/subtle/random"
+	"github.com/prizraksarvar/tink/testkeyset"
+	"github.com/prizraksarvar/tink/testutil"
 )
 
 func TestHybridFactoryTest(t *testing.T) {

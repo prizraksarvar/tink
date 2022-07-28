@@ -19,8 +19,8 @@ package cryptofmt_test
 import (
 	"testing"
 
-	"github.com/prizraksarvar/tink/go/core/cryptofmt"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/core/cryptofmt"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
 )
 
 var tests = []struct {

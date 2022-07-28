@@ -22,8 +22,8 @@ package aes_ctr_hmac_streaming_go_proto
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	common_go_proto "github.com/prizraksarvar/tink/go/proto/common_go_proto"
-	hmac_go_proto "github.com/prizraksarvar/tink/go/proto/hmac_go_proto"
+	common_go_proto "github.com/prizraksarvar/tink/proto/common_go_proto"
+	hmac_go_proto "github.com/prizraksarvar/tink/proto/hmac_go_proto"
 	math "math"
 )
 

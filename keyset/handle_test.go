@@ -21,13 +21,13 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/prizraksarvar/tink/go/aead/subtle"
-	"github.com/prizraksarvar/tink/go/keyset"
-	"github.com/prizraksarvar/tink/go/mac"
-	"github.com/prizraksarvar/tink/go/testkeyset"
-	"github.com/prizraksarvar/tink/go/testutil"
+	"github.com/prizraksarvar/tink/aead/subtle"
+	"github.com/prizraksarvar/tink/keyset"
+	"github.com/prizraksarvar/tink/mac"
+	"github.com/prizraksarvar/tink/testkeyset"
+	"github.com/prizraksarvar/tink/testutil"
 
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
 )
 
 func TestNewHandle(t *testing.T) {

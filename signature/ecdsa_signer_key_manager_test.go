@@ -22,13 +22,13 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/prizraksarvar/tink/go/core/registry"
-	commonpb "github.com/prizraksarvar/tink/go/proto/common_go_proto"
-	ecdsapb "github.com/prizraksarvar/tink/go/proto/ecdsa_go_proto"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
-	"github.com/prizraksarvar/tink/go/signature/subtle"
-	"github.com/prizraksarvar/tink/go/subtle/random"
-	"github.com/prizraksarvar/tink/go/testutil"
+	"github.com/prizraksarvar/tink/core/registry"
+	commonpb "github.com/prizraksarvar/tink/proto/common_go_proto"
+	ecdsapb "github.com/prizraksarvar/tink/proto/ecdsa_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/signature/subtle"
+	"github.com/prizraksarvar/tink/subtle/random"
+	"github.com/prizraksarvar/tink/testutil"
 )
 
 type ecdsaParams struct {

@@ -18,10 +18,10 @@ package mac
 
 import (
 	"github.com/golang/protobuf/proto"
-	cmacpb "github.com/prizraksarvar/tink/go/proto/aes_cmac_go_proto"
-	commonpb "github.com/prizraksarvar/tink/go/proto/common_go_proto"
-	hmacpb "github.com/prizraksarvar/tink/go/proto/hmac_go_proto"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
+	cmacpb "github.com/prizraksarvar/tink/proto/aes_cmac_go_proto"
+	commonpb "github.com/prizraksarvar/tink/proto/common_go_proto"
+	hmacpb "github.com/prizraksarvar/tink/proto/hmac_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
 )
 
 // This file contains pre-generated KeyTemplate for MAC.

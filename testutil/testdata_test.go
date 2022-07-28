@@ -19,7 +19,7 @@ package testutil_test
 import (
 	"testing"
 
-	"github.com/prizraksarvar/tink/go/testutil"
+	"github.com/prizraksarvar/tink/testutil"
 )
 
 func TestKeyTemplateProto(t *testing.T) {

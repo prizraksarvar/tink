@@ -19,9 +19,9 @@ package keyset
 import (
 	"fmt"
 
-	"github.com/prizraksarvar/tink/go/core/registry"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
-	"github.com/prizraksarvar/tink/go/subtle/random"
+	"github.com/prizraksarvar/tink/core/registry"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/subtle/random"
 )
 
 // Manager manages a Keyset-proto, with convenience methods that rotate, disable, enable or destroy keys.

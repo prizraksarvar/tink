@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/prizraksarvar/tink/go/subtle/random"
-	"github.com/prizraksarvar/tink/go/tink"
+	"github.com/prizraksarvar/tink/subtle/random"
+	"github.com/prizraksarvar/tink/tink"
 	"golang.org/x/crypto/chacha20poly1305"
 )
 

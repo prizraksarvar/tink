@@ -20,16 +20,16 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/prizraksarvar/tink/go/aead"
-	"github.com/prizraksarvar/tink/go/core/registry"
-	"github.com/prizraksarvar/tink/go/mac"
-	"github.com/prizraksarvar/tink/go/mac/subtle"
-	gcmpb "github.com/prizraksarvar/tink/go/proto/aes_gcm_go_proto"
-	commonpb "github.com/prizraksarvar/tink/go/proto/common_go_proto"
-	hmacpb "github.com/prizraksarvar/tink/go/proto/hmac_go_proto"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
-	"github.com/prizraksarvar/tink/go/testing/fakekms"
-	"github.com/prizraksarvar/tink/go/testutil"
+	"github.com/prizraksarvar/tink/aead"
+	"github.com/prizraksarvar/tink/core/registry"
+	"github.com/prizraksarvar/tink/mac"
+	"github.com/prizraksarvar/tink/mac/subtle"
+	gcmpb "github.com/prizraksarvar/tink/proto/aes_gcm_go_proto"
+	commonpb "github.com/prizraksarvar/tink/proto/common_go_proto"
+	hmacpb "github.com/prizraksarvar/tink/proto/hmac_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/testing/fakekms"
+	"github.com/prizraksarvar/tink/testutil"
 )
 
 func TestRegisterKeyManager(t *testing.T) {

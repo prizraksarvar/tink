@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/prizraksarvar/tink/go/aead/subtle"
-	"github.com/prizraksarvar/tink/go/subtle/random"
-	"github.com/prizraksarvar/tink/go/testutil"
+	"github.com/prizraksarvar/tink/aead/subtle"
+	"github.com/prizraksarvar/tink/subtle/random"
+	"github.com/prizraksarvar/tink/testutil"
 )
 
 var keySizes = []int{16, 32}

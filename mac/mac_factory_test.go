@@ -22,17 +22,17 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/prizraksarvar/tink/go/core/cryptofmt"
-	"github.com/prizraksarvar/tink/go/keyset"
-	"github.com/prizraksarvar/tink/go/mac"
-	"github.com/prizraksarvar/tink/go/signature"
-	"github.com/prizraksarvar/tink/go/testkeyset"
-	"github.com/prizraksarvar/tink/go/testutil"
-	"github.com/prizraksarvar/tink/go/tink"
+	"github.com/prizraksarvar/tink/core/cryptofmt"
+	"github.com/prizraksarvar/tink/keyset"
+	"github.com/prizraksarvar/tink/mac"
+	"github.com/prizraksarvar/tink/signature"
+	"github.com/prizraksarvar/tink/testkeyset"
+	"github.com/prizraksarvar/tink/testutil"
+	"github.com/prizraksarvar/tink/tink"
 
-	commonpb "github.com/prizraksarvar/tink/go/proto/common_go_proto"
-	hmacpb "github.com/prizraksarvar/tink/go/proto/hmac_go_proto"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
+	commonpb "github.com/prizraksarvar/tink/proto/common_go_proto"
+	hmacpb "github.com/prizraksarvar/tink/proto/hmac_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
 )
 
 func TestFactoryMultipleKeys(t *testing.T) {

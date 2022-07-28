@@ -23,12 +23,12 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/prizraksarvar/tink/go/keyset"
-	commonpb "github.com/prizraksarvar/tink/go/proto/common_go_proto"
-	ecdsapb "github.com/prizraksarvar/tink/go/proto/ecdsa_go_proto"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
-	subtleSignature "github.com/prizraksarvar/tink/go/signature/subtle"
-	"github.com/prizraksarvar/tink/go/subtle"
+	"github.com/prizraksarvar/tink/keyset"
+	commonpb "github.com/prizraksarvar/tink/proto/common_go_proto"
+	ecdsapb "github.com/prizraksarvar/tink/proto/ecdsa_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
+	subtleSignature "github.com/prizraksarvar/tink/signature/subtle"
+	"github.com/prizraksarvar/tink/subtle"
 )
 
 const (

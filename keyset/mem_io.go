@@ -16,7 +16,7 @@
 
 package keyset
 
-import tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
+import tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
 
 // MemReaderWriter implements keyset.Reader and keyset.Writer for *tinkpb.Keyset and *tinkpb.EncryptedKeyset.
 type MemReaderWriter struct {

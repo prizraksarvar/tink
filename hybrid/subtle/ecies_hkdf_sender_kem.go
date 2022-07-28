@@ -16,7 +16,7 @@
 
 package subtle
 
-import "github.com/prizraksarvar/tink/go/subtle"
+import "github.com/prizraksarvar/tink/subtle"
 
 // KEMKey represents a KEM managed key.
 type KEMKey struct {

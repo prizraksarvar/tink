@@ -18,11 +18,11 @@ package prf
 
 import (
 	"github.com/golang/protobuf/proto"
-	cmacpb "github.com/prizraksarvar/tink/go/proto/aes_cmac_prf_go_proto"
-	commonpb "github.com/prizraksarvar/tink/go/proto/common_go_proto"
-	hkdfpb "github.com/prizraksarvar/tink/go/proto/hkdf_prf_go_proto"
-	hmacpb "github.com/prizraksarvar/tink/go/proto/hmac_prf_go_proto"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
+	cmacpb "github.com/prizraksarvar/tink/proto/aes_cmac_prf_go_proto"
+	commonpb "github.com/prizraksarvar/tink/proto/common_go_proto"
+	hkdfpb "github.com/prizraksarvar/tink/proto/hkdf_prf_go_proto"
+	hmacpb "github.com/prizraksarvar/tink/proto/hmac_prf_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
 )
 
 // This file contains pre-generated KeyTemplate for PRF.

@@ -34,7 +34,7 @@ package hybrid
 import (
 	"fmt"
 
-	"github.com/prizraksarvar/tink/go/core/registry"
+	"github.com/prizraksarvar/tink/core/registry"
 )
 
 func init() {

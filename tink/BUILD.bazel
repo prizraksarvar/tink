@@ -17,6 +17,6 @@ go_library(
         "verifier.go",
         "version.go",
     ],
-    importpath = "github.com/prizraksarvar/tink/go/tink",
+    importpath = "github.com/prizraksarvar/tink/tink",
     visibility = ["//visibility:public"],
 )

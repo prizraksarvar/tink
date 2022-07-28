@@ -22,10 +22,10 @@ import (
 	"log"
 	"testing"
 
-	"github.com/prizraksarvar/tink/go/aead"
-	"github.com/prizraksarvar/tink/go/core/registry"
-	"github.com/prizraksarvar/tink/go/keyset"
-	"github.com/prizraksarvar/tink/go/testutil"
+	"github.com/prizraksarvar/tink/aead"
+	"github.com/prizraksarvar/tink/core/registry"
+	"github.com/prizraksarvar/tink/keyset"
+	"github.com/prizraksarvar/tink/testutil"
 )
 
 func Example() {

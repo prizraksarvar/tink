@@ -24,8 +24,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/prizraksarvar/tink/go/keyset"
-	"github.com/prizraksarvar/tink/go/streamingaead"
+	"github.com/prizraksarvar/tink/keyset"
+	"github.com/prizraksarvar/tink/streamingaead"
 )
 
 func Example() {

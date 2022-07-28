@@ -29,8 +29,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/kms"
 	"github.com/aws/aws-sdk-go/service/kms/kmsiface"
-	"github.com/prizraksarvar/tink/go/core/registry"
-	"github.com/prizraksarvar/tink/go/tink"
+	"github.com/prizraksarvar/tink/core/registry"
+	"github.com/prizraksarvar/tink/tink"
 )
 
 const (

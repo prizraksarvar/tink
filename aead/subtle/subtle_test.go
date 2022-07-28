@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/prizraksarvar/tink/go/aead/subtle"
-	"github.com/prizraksarvar/tink/go/testutil"
+	"github.com/prizraksarvar/tink/aead/subtle"
+	"github.com/prizraksarvar/tink/testutil"
 )
 
 type AEADSuite struct {

@@ -21,10 +21,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/prizraksarvar/tink/go/core/cryptofmt"
-	"github.com/prizraksarvar/tink/go/core/primitiveset"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
-	"github.com/prizraksarvar/tink/go/testutil"
+	"github.com/prizraksarvar/tink/core/cryptofmt"
+	"github.com/prizraksarvar/tink/core/primitiveset"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/testutil"
 )
 
 func createKeyset() []*tinkpb.Keyset_Key {

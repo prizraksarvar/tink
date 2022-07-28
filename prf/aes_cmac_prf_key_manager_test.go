@@ -22,14 +22,14 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/prizraksarvar/tink/go/core/registry"
-	"github.com/prizraksarvar/tink/go/prf"
-	"github.com/prizraksarvar/tink/go/prf/subtle"
-	cmacpb "github.com/prizraksarvar/tink/go/proto/aes_cmac_prf_go_proto"
-	commonpb "github.com/prizraksarvar/tink/go/proto/common_go_proto"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
-	"github.com/prizraksarvar/tink/go/subtle/random"
-	"github.com/prizraksarvar/tink/go/testutil"
+	"github.com/prizraksarvar/tink/core/registry"
+	"github.com/prizraksarvar/tink/prf"
+	"github.com/prizraksarvar/tink/prf/subtle"
+	cmacpb "github.com/prizraksarvar/tink/proto/aes_cmac_prf_go_proto"
+	commonpb "github.com/prizraksarvar/tink/proto/common_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/subtle/random"
+	"github.com/prizraksarvar/tink/testutil"
 )
 
 func TestGetPrimitiveCMACBasic(t *testing.T) {

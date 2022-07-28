@@ -21,7 +21,7 @@ import (
 
 	"google.golang.org/api/cloudkms/v1"
 
-	"github.com/prizraksarvar/tink/go/tink"
+	"github.com/prizraksarvar/tink/tink"
 )
 
 // gcpAEAD represents a GCP KMS service to a particular URI.

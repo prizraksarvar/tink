@@ -7,7 +7,7 @@ go_library(
         "aes_gcm_hkdf.go",
         "subtle.go",
     ],
-    importpath = "github.com/prizraksarvar/tink/go/streamingaead/subtle",
+    importpath = "github.com/prizraksarvar/tink/streamingaead/subtle",
     visibility = ["//visibility:public"],
     deps = [
         "//aead/subtle:go_default_library",

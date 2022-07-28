@@ -24,7 +24,7 @@ import (
 	"strings"
 
 	"github.com/hashicorp/vault/api"
-	"github.com/prizraksarvar/tink/go/tink"
+	"github.com/prizraksarvar/tink/tink"
 )
 
 // vaultAEAD represents a HashiCorp Vault service to a particular URI.

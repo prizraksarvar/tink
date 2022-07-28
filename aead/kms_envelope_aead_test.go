@@ -19,9 +19,9 @@ package aead_test
 import (
 	"testing"
 
-	"github.com/prizraksarvar/tink/go/aead"
-	"github.com/prizraksarvar/tink/go/keyset"
-	"github.com/prizraksarvar/tink/go/tink"
+	"github.com/prizraksarvar/tink/aead"
+	"github.com/prizraksarvar/tink/keyset"
+	"github.com/prizraksarvar/tink/tink"
 )
 
 func createKMSEnvelopeAEAD(t *testing.T) tink.AEAD {

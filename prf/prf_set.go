@@ -20,7 +20,7 @@ package prf
 import (
 	"fmt"
 
-	"github.com/prizraksarvar/tink/go/core/registry"
+	"github.com/prizraksarvar/tink/core/registry"
 )
 
 // The PRF interface is an abstraction for an element of a pseudo random

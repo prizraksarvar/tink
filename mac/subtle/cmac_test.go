@@ -23,8 +23,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/prizraksarvar/tink/go/mac/subtle"
-	"github.com/prizraksarvar/tink/go/subtle/random"
+	"github.com/prizraksarvar/tink/mac/subtle"
+	"github.com/prizraksarvar/tink/subtle/random"
 )
 
 var (

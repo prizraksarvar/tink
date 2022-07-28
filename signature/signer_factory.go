@@ -19,11 +19,11 @@ package signature
 import (
 	"fmt"
 
-	"github.com/prizraksarvar/tink/go/core/primitiveset"
-	"github.com/prizraksarvar/tink/go/core/registry"
-	"github.com/prizraksarvar/tink/go/keyset"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
-	"github.com/prizraksarvar/tink/go/tink"
+	"github.com/prizraksarvar/tink/core/primitiveset"
+	"github.com/prizraksarvar/tink/core/registry"
+	"github.com/prizraksarvar/tink/keyset"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/tink"
 )
 
 // NewSigner returns a Signer primitive from the given keyset handle.

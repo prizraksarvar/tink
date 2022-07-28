@@ -23,14 +23,14 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/prizraksarvar/tink/go/core/registry"
-	subtleMac "github.com/prizraksarvar/tink/go/mac/subtle"
-	commonpb "github.com/prizraksarvar/tink/go/proto/common_go_proto"
-	hmacpb "github.com/prizraksarvar/tink/go/proto/hmac_go_proto"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
-	"github.com/prizraksarvar/tink/go/subtle"
-	"github.com/prizraksarvar/tink/go/subtle/random"
-	"github.com/prizraksarvar/tink/go/testutil"
+	"github.com/prizraksarvar/tink/core/registry"
+	subtleMac "github.com/prizraksarvar/tink/mac/subtle"
+	commonpb "github.com/prizraksarvar/tink/proto/common_go_proto"
+	hmacpb "github.com/prizraksarvar/tink/proto/hmac_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/subtle"
+	"github.com/prizraksarvar/tink/subtle/random"
+	"github.com/prizraksarvar/tink/testutil"
 )
 
 func TestGetPrimitiveBasic(t *testing.T) {

@@ -7,7 +7,7 @@ go_library(
     srcs = [
         "aes_siv.go",
     ],
-    importpath = "github.com/prizraksarvar/tink/go/daead/subtle",
+    importpath = "github.com/prizraksarvar/tink/daead/subtle",
 )
 
 go_test(

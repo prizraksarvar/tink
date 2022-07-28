@@ -20,12 +20,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/prizraksarvar/tink/go/core/cryptofmt"
-	"github.com/prizraksarvar/tink/go/core/primitiveset"
-	"github.com/prizraksarvar/tink/go/core/registry"
-	"github.com/prizraksarvar/tink/go/keyset"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
-	"github.com/prizraksarvar/tink/go/tink"
+	"github.com/prizraksarvar/tink/core/cryptofmt"
+	"github.com/prizraksarvar/tink/core/primitiveset"
+	"github.com/prizraksarvar/tink/core/registry"
+	"github.com/prizraksarvar/tink/keyset"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/tink"
 )
 
 // NewVerifier returns a Verifier primitive from the given keyset handle.

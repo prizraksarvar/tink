@@ -24,8 +24,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/prizraksarvar/tink/go/daead/subtle"
-	"github.com/prizraksarvar/tink/go/subtle/random"
+	"github.com/prizraksarvar/tink/daead/subtle"
+	"github.com/prizraksarvar/tink/subtle/random"
 )
 
 type testData struct {

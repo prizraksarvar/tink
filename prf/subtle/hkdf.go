@@ -21,7 +21,7 @@ import (
 	"hash"
 	"io"
 
-	"github.com/prizraksarvar/tink/go/subtle"
+	"github.com/prizraksarvar/tink/subtle"
 	"golang.org/x/crypto/hkdf"
 )
 

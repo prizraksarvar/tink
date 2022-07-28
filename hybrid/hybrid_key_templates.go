@@ -18,10 +18,10 @@ package hybrid
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/prizraksarvar/tink/go/aead"
-	commonpb "github.com/prizraksarvar/tink/go/proto/common_go_proto"
-	eciespb "github.com/prizraksarvar/tink/go/proto/ecies_aead_hkdf_go_proto"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/aead"
+	commonpb "github.com/prizraksarvar/tink/proto/common_go_proto"
+	eciespb "github.com/prizraksarvar/tink/proto/ecies_aead_hkdf_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
 )
 
 // This file contains pre-generated KeyTemplates for HybridEncrypt keys. One can use these templates

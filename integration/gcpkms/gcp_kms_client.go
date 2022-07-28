@@ -26,8 +26,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/prizraksarvar/tink/go/core/registry"
-	"github.com/prizraksarvar/tink/go/tink"
+	"github.com/prizraksarvar/tink/core/registry"
+	"github.com/prizraksarvar/tink/tink"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 	"google.golang.org/api/cloudkms/v1"

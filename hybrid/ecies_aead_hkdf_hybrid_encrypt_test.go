@@ -20,11 +20,11 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/prizraksarvar/tink/go/aead"
-	"github.com/prizraksarvar/tink/go/daead"
-	"github.com/prizraksarvar/tink/go/hybrid/subtle"
-	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
-	"github.com/prizraksarvar/tink/go/subtle/random"
+	"github.com/prizraksarvar/tink/aead"
+	"github.com/prizraksarvar/tink/daead"
+	"github.com/prizraksarvar/tink/hybrid/subtle"
+	tinkpb "github.com/prizraksarvar/tink/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/subtle/random"
 )
 
 func basicMultipleEncrypts(t *testing.T, c string, k *tinkpb.KeyTemplate) {
