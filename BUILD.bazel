@@ -1,39 +1,15 @@
-# Description:
-#   Tink (https://github.com/google/tink) is a small crypto library that
-#   provides a safe, simple, agile and fast way to accomplish some common
-#   crypto tasks.
-load("@rules_python//python:defs.bzl", "py_library")
+load("@io_bazel_rules_go//go:def.bzl", "nogo")
+load("@bazel_gazelle//:def.bzl", "gazelle")
 
 package(default_visibility = ["//:__subpackages__"])
 
 licenses(["notice"])
 
-exports_files([
-    "LICENSE",
-    "README.md",
-    "__init__.py",
-])
-
-filegroup(
-    name = "tink_version",
-    srcs = ["tink_version.bzl"],
+nogo(
+    name = "tink_nogo",
+    vet = True,
     visibility = ["//visibility:public"],
 )
 
-filegroup(
-    name = "cmake_source_files",
-    data = glob(["cmake/**"]) + [
-        "//cc",
-        "CMakeLists.txt",
-        "tink_version.cmake",
-    ],
-)
-
-py_library(
-    name = "tink_python",
-    srcs = ["__init__.py"],
-    visibility = ["//visibility:public"],
-    deps = [
-        "//python:tink",
-    ],
-)
+# gazelle:prefix github.com/google/tink
+gazelle(name = "gazelle")
