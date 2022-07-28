@@ -21,13 +21,13 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/google/tink/go/aead"
-	"github.com/google/tink/go/daead"
-	"github.com/google/tink/go/mac"
-	"github.com/google/tink/go/signature"
-	"github.com/google/tink/go/subtle/random"
-	"github.com/google/tink/go/tink"
-	tinkpb "github.com/google/tink/go/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/go/aead"
+	"github.com/prizraksarvar/tink/go/daead"
+	"github.com/prizraksarvar/tink/go/mac"
+	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/go/signature"
+	"github.com/prizraksarvar/tink/go/subtle/random"
+	"github.com/prizraksarvar/tink/go/tink"
 )
 
 var (

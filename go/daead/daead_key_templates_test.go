@@ -22,11 +22,11 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/tink/go/daead"
-	"github.com/google/tink/go/keyset"
-	"github.com/google/tink/go/testutil"
+	"github.com/prizraksarvar/tink/go/daead"
+	"github.com/prizraksarvar/tink/go/keyset"
+	"github.com/prizraksarvar/tink/go/testutil"
 
-	tinkpb "github.com/google/tink/go/proto/tink_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
 )
 
 func TestKeyTemplates(t *testing.T) {

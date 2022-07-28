@@ -20,9 +20,9 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/testutil"
-	commonpb "github.com/google/tink/go/proto/common_go_proto"
+	"github.com/prizraksarvar/tink/go/core/registry"
+	commonpb "github.com/prizraksarvar/tink/go/proto/common_go_proto"
+	"github.com/prizraksarvar/tink/go/testutil"
 )
 
 func TestECDSAVerifyGetPrimitiveBasic(t *testing.T) {

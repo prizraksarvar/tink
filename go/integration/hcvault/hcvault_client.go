@@ -26,8 +26,8 @@ import (
 	"strings"
 
 	"github.com/hashicorp/vault/api"
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/tink"
+	"github.com/prizraksarvar/tink/go/core/registry"
+	"github.com/prizraksarvar/tink/go/tink"
 )
 
 const (

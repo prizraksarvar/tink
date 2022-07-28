@@ -20,11 +20,11 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	ctrhmacpb "github.com/google/tink/go/proto/aes_ctr_hmac_streaming_go_proto"
-	gcmhkdfpb "github.com/google/tink/go/proto/aes_gcm_hkdf_streaming_go_proto"
-	commonpb "github.com/google/tink/go/proto/common_go_proto"
-	hmacpb "github.com/google/tink/go/proto/hmac_go_proto"
-	tinkpb "github.com/google/tink/go/proto/tink_go_proto"
+	ctrhmacpb "github.com/prizraksarvar/tink/go/proto/aes_ctr_hmac_streaming_go_proto"
+	gcmhkdfpb "github.com/prizraksarvar/tink/go/proto/aes_gcm_hkdf_streaming_go_proto"
+	commonpb "github.com/prizraksarvar/tink/go/proto/common_go_proto"
+	hmacpb "github.com/prizraksarvar/tink/go/proto/hmac_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
 )
 
 // This file contains pre-generated KeyTemplates for streaming AEAD keys. One can use these templates

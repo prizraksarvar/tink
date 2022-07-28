@@ -21,8 +21,8 @@ import (
 	"crypto/cipher"
 	"fmt"
 
-	"github.com/google/tink/go/subtle/random"
-	"github.com/google/tink/go/tink"
+	"github.com/prizraksarvar/tink/go/subtle/random"
+	"github.com/prizraksarvar/tink/go/tink"
 )
 
 const (

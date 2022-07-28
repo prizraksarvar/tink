@@ -19,14 +19,14 @@ package aead
 import (
 	"fmt"
 
-	"golang.org/x/crypto/chacha20poly1305"
 	"github.com/golang/protobuf/proto"
-	"github.com/google/tink/go/aead/subtle"
-	"github.com/google/tink/go/keyset"
-	"github.com/google/tink/go/subtle/random"
+	"github.com/prizraksarvar/tink/go/aead/subtle"
+	"github.com/prizraksarvar/tink/go/keyset"
+	"github.com/prizraksarvar/tink/go/subtle/random"
+	"golang.org/x/crypto/chacha20poly1305"
 
-	cppb "github.com/google/tink/go/proto/chacha20_poly1305_go_proto"
-	tinkpb "github.com/google/tink/go/proto/tink_go_proto"
+	cppb "github.com/prizraksarvar/tink/go/proto/chacha20_poly1305_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
 )
 
 const (

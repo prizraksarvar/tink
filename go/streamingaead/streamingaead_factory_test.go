@@ -24,14 +24,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/tink/go/keyset"
-	"github.com/google/tink/go/mac"
-	"github.com/google/tink/go/streamingaead"
-	"github.com/google/tink/go/subtle/random"
-	"github.com/google/tink/go/testkeyset"
-	"github.com/google/tink/go/testutil"
-	"github.com/google/tink/go/tink"
-	tinkpb "github.com/google/tink/go/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/go/keyset"
+	"github.com/prizraksarvar/tink/go/mac"
+	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/go/streamingaead"
+	"github.com/prizraksarvar/tink/go/subtle/random"
+	"github.com/prizraksarvar/tink/go/testkeyset"
+	"github.com/prizraksarvar/tink/go/testutil"
+	"github.com/prizraksarvar/tink/go/tink"
 )
 
 func TestFactoryMultipleKeys(t *testing.T) {
@@ -125,7 +125,6 @@ func encryptDecrypt(encryptCipher, decryptCipher tink.StreamingAEAD, ptSize, aad
 	}
 	return nil
 }
-
 
 func TestFactoryWithInvalidPrimitiveSetType(t *testing.T) {
 	wrongKH, err := keyset.NewHandle(mac.HMACSHA256Tag128KeyTemplate())

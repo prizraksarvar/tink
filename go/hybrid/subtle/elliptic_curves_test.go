@@ -28,8 +28,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/tink/go/hybrid/subtle"
-	"github.com/google/tink/go/testutil"
+	"github.com/prizraksarvar/tink/go/hybrid/subtle"
+	"github.com/prizraksarvar/tink/go/testutil"
 )
 
 // The tests are from

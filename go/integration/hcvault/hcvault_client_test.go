@@ -20,9 +20,9 @@ import (
 	"crypto/tls"
 	"log"
 
-	"github.com/google/tink/go/aead"
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/keyset"
+	"github.com/prizraksarvar/tink/go/aead"
+	"github.com/prizraksarvar/tink/go/core/registry"
+	"github.com/prizraksarvar/tink/go/keyset"
 )
 
 func Example() {

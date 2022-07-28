@@ -21,12 +21,12 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/tink/go/keyset"
-	"github.com/google/tink/go/prf/subtle"
-	"github.com/google/tink/go/subtle/random"
-	commonpb "github.com/google/tink/go/proto/common_go_proto"
-	hmacpb "github.com/google/tink/go/proto/hmac_prf_go_proto"
-	tinkpb "github.com/google/tink/go/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/go/keyset"
+	"github.com/prizraksarvar/tink/go/prf/subtle"
+	commonpb "github.com/prizraksarvar/tink/go/proto/common_go_proto"
+	hmacpb "github.com/prizraksarvar/tink/go/proto/hmac_prf_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/go/subtle/random"
 )
 
 const (

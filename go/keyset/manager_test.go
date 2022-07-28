@@ -19,12 +19,12 @@ package keyset_test
 import (
 	"testing"
 
-	"github.com/google/tink/go/keyset"
-	"github.com/google/tink/go/testkeyset"
+	"github.com/prizraksarvar/tink/go/keyset"
+	"github.com/prizraksarvar/tink/go/testkeyset"
 
-	"github.com/google/tink/go/mac"
-	"github.com/google/tink/go/testutil"
-	tinkpb "github.com/google/tink/go/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/go/mac"
+	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/go/testutil"
 )
 
 func TestKeysetManagerBasic(t *testing.T) {

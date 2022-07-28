@@ -22,11 +22,11 @@ import (
 	"math/big"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/hybrid/subtle"
-	"github.com/google/tink/go/keyset"
-	eahpb "github.com/google/tink/go/proto/ecies_aead_hkdf_go_proto"
-	tinkpb "github.com/google/tink/go/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/go/core/registry"
+	"github.com/prizraksarvar/tink/go/hybrid/subtle"
+	"github.com/prizraksarvar/tink/go/keyset"
+	eahpb "github.com/prizraksarvar/tink/go/proto/ecies_aead_hkdf_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
 )
 
 const (

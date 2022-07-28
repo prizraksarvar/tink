@@ -22,12 +22,12 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/tink/go/aead/subtle"
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/subtle/random"
-	"github.com/google/tink/go/testutil"
-	gcmpb "github.com/google/tink/go/proto/aes_gcm_go_proto"
-	tinkpb "github.com/google/tink/go/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/go/aead/subtle"
+	"github.com/prizraksarvar/tink/go/core/registry"
+	gcmpb "github.com/prizraksarvar/tink/go/proto/aes_gcm_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/go/subtle/random"
+	"github.com/prizraksarvar/tink/go/testutil"
 )
 
 var keySizes = []uint32{16, 32}

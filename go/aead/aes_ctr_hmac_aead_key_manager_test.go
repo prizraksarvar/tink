@@ -20,11 +20,11 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/tink/go/aead"
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/testutil"
-	ctrhmacpb "github.com/google/tink/go/proto/aes_ctr_hmac_aead_go_proto"
-	tinkpb "github.com/google/tink/go/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/go/aead"
+	"github.com/prizraksarvar/tink/go/core/registry"
+	ctrhmacpb "github.com/prizraksarvar/tink/go/proto/aes_ctr_hmac_aead_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/go/testutil"
 )
 
 func TestNewKeyMultipleTimes(t *testing.T) {

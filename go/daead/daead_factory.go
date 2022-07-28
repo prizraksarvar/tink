@@ -19,11 +19,11 @@ package daead
 import (
 	"fmt"
 
-	"github.com/google/tink/go/core/cryptofmt"
-	"github.com/google/tink/go/core/primitiveset"
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/keyset"
-	"github.com/google/tink/go/tink"
+	"github.com/prizraksarvar/tink/go/core/cryptofmt"
+	"github.com/prizraksarvar/tink/go/core/primitiveset"
+	"github.com/prizraksarvar/tink/go/core/registry"
+	"github.com/prizraksarvar/tink/go/keyset"
+	"github.com/prizraksarvar/tink/go/tink"
 )
 
 // New returns a DeterministicAEAD primitive from the given keyset handle.

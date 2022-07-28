@@ -23,7 +23,7 @@ import (
 	"hash"
 	"math/big"
 
-	"github.com/google/tink/go/subtle"
+	"github.com/prizraksarvar/tink/go/subtle"
 )
 
 var errInvalidECDSASignature = errors.New("ecdsa_verifier: invalid signature")

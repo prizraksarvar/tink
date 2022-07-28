@@ -22,12 +22,12 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/streamingaead/subtle"
-	"github.com/google/tink/go/testutil"
-	gcmhkdfpb "github.com/google/tink/go/proto/aes_gcm_hkdf_streaming_go_proto"
-	commonpb "github.com/google/tink/go/proto/common_go_proto"
-	tinkpb "github.com/google/tink/go/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/go/core/registry"
+	gcmhkdfpb "github.com/prizraksarvar/tink/go/proto/aes_gcm_hkdf_streaming_go_proto"
+	commonpb "github.com/prizraksarvar/tink/go/proto/common_go_proto"
+	tinkpb "github.com/prizraksarvar/tink/go/proto/tink_go_proto"
+	"github.com/prizraksarvar/tink/go/streamingaead/subtle"
+	"github.com/prizraksarvar/tink/go/testutil"
 )
 
 var aesGCMHKDFKeySizes = []uint32{16, 32}
